@@ -1,0 +1,78 @@
+html,
+body {
+    position: relative;
+    overflow: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #47adbd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: montserrat;
+    text-align: center;
+}
+
+.glass {
+    background: white;
+    min-height: 90vh;
+    width: 80%;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    backdrop-filter: blur(2rem);
+    z-index: 2;
+}
+
+h3 {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    padding-bottom: 5px;
+}
+
+p,
+h3 {
+    padding: 0px;
+    outline: none;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right top, #37e4c4, #69cfdf);
+    color: black;
+    height: 50px;
+    width: 50px;
+    float: right;
+    bottom: 0;
+    position: relative;
+}
+
+button:hover {
+    background: linear-gradient(to right top, #10856f, #14abc2);
+    color: white;
+}
+
+
+/* #bold{
+    left:80%
+}
+#italic{
+
+    left:85%
+}
+#regular{
+    left:90%
+} */
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}

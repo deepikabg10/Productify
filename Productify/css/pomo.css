@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #47adbd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: montserrat;
+    text-align: center;
+}
+
+.glass {
+    background: white;
+    min-height: 90vh;
+    width: 80%;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    backdrop-filter: blur(2rem);
+    z-index: 2;
+}
+
+#container {
+    border: 1px solid #333;
+    border-radius: 20px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    background: linear-gradient(to right top, #65dfc9, #47adbd);
+    text-align: center;
+    top: 40px;
+    position: relative;
+}
+
+#timer {
+    color: #fff;
+    font-size: 50px;
+    margin: 10px auto;
+    border: 5px solid red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+#time {
+    margin-top: 65px;
+    z-index: 1;
+    position: relative;
+}
+
+#filler {
+    background: #ddffcc;
+    height: 0px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+}
+
+#buttons button {
+    background: #4da6ff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    width: 200px;
+    margin: 10px auto;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    background: linear-gradient(to right top, #65dfc9, #47adbd);
+    text-align: center;
+}
+
+#buttons button#shortBreak {
+    background: #0c0;
+}
+
+#buttons button#longBreak {
+    background: #080;
+}
+
+#buttons button#stop {
+    background: #f00;
+}
+
+#buttons button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.content {
+    padding: 16px;
+}
+
+#buttons {
+    background: linear-gradient(to right top, #65dfc9, #47adbd);
+    border-radius: 50px;
+}
+
+#container {
+    background: linear-gradient(to right top, #65dfc9, #47adbd);
+}
